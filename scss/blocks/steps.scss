@@ -59,8 +59,12 @@
     font-style: italic;
   }
   @media (max-width: $break_xl) {
+    margin-right: 20px;
     &_item {
       padding: 0px 10px 0px 34px;
+      &:after {
+        width: 20px;
+      }
     }
     &_num {
       font-size: 69px;
@@ -80,6 +84,10 @@
     &_item {
       width: 100%;
       border-radius: 60px 0 0 60px;
+      padding: 0px 10px 0px 24px;
+    }
+    &_num {
+      margin-right: 10px;
     }
   }
 }

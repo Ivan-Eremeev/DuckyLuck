@@ -448,8 +448,14 @@ body {
 	font-style: italic;
 }
 @media (max-width: 1400px) {
+	.steps {
+		margin-right: 20px;
+	}
 	.steps_item {
 		padding: 0px 10px 0px 34px;
+	}
+	.steps_item:after {
+		width: 20px;
 	}
 	.steps_num {
 		font-size: 69px;
@@ -471,6 +477,10 @@ body {
 	.steps_item {
 		width: 100%;
 		border-radius: 60px 0 0 60px;
+		padding: 0px 10px 0px 24px;
+	}
+	.steps_num {
+		margin-right: 10px;
 	}
 }
 
