@@ -1,0 +1,53 @@
+.welcome {
+  background-image: url(../img/cloud.png);
+  background-repeat: no-repeat;
+	background-position: bottom center;
+	&_row {
+		display: flex;
+		justify-content: space-between;
+	}
+	&_content {
+    width: 100%;
+		max-width: 600px;
+		text-align: center;
+    text-transform: uppercase;
+	}
+	&_title {
+		font-family: Grobold;
+		color: #febb01;
+		font-size: 73px;
+		text-shadow: 6px 13px 0 #4a1452;
+		letter-spacing: 6px;
+		line-height: 0.97;
+		margin-bottom: 25px;
+	}
+	&_title-big {
+		font-size: 184px;
+	}
+	&_title-top {
+		font-size: 138px;
+	}
+	&_title_text {
+		display: block;
+	}
+	&_text {
+		font-size: 41px;
+		color: #fff;
+    font-weight: bold;
+		margin: 15px;
+	}
+	&_btn {
+		display: inline-block;
+		width: 100%;
+		padding: 23px 45px;
+		background-image: linear-gradient(to left, #25003a 0%, #9700ef 100%);
+		border-radius: 68px;
+		font-size: 77px;
+		font-weight: bold;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	&_hero {
+		margin-right: 100px;
+	}
+}

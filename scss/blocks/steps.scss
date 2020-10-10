@@ -1,0 +1,57 @@
+.steps {
+  display: flex;
+  color: #fff;
+  margin-top: -20px;
+  margin-right: 30px;
+  &_item {
+    display: flex;
+    align-items: center;
+    width: 33.3%;
+    height: 120px;
+    padding: 0 10px 0 70px;
+    position: relative;
+    &:after {
+      position: absolute;
+      top: 0;
+      left: 100%;
+    }
+    &--1 {
+      background-color: #febb01;
+      z-index: 3;
+      border-radius: 60px 0 0 60px;
+      &:after {
+        @include triangle('right', 30px, 60px, #febb01);
+      }
+    }
+    &--2 {
+      background-color: #ff7b17;
+      z-index: 2;
+      &:after {
+        @include triangle('right', 30px, 60px, #ff7b17);
+      }
+    }
+    &--3 {
+      background-color: #0191b6;
+      z-index: 1; 
+      &:after {
+        @include triangle('right', 30px, 60px, #0191b6);
+      }
+    }
+  }
+  &_num {
+    font-family: "Grobold";
+    font-size: 95px;
+    margin-right: 40px;
+  }
+  &_content {
+    
+  }
+  &_title {
+    font-size: 41px;
+    text-transform: uppercase;
+  }
+  &_text {
+    font-size: 25px;
+    font-style: italic;
+  }
+}
