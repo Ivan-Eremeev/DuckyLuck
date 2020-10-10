@@ -7,8 +7,9 @@
     display: flex;
     align-items: center;
     width: 33.3%;
-    padding: 5px 10px 5px 70px;
+    padding: 10px 10px 10px 70px;
     position: relative;
+    line-height: 1;
     &:after {
       content:'';
       display: block;
@@ -76,15 +77,20 @@
       font-size: 19px;
     }
     &_text {
-      font-size: 19px;
+      font-size: 15px;
     }
   }
   @media (max-width: $break_sm) {
     flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-right: 35px;
+    background-color: #fff;
     &_item {
       width: 100%;
       border-radius: 60px 0 0 60px;
-      padding: 0px 10px 0px 24px;
+      padding: 10px 10px 10px 24px;
     }
     &_num {
       margin-right: 10px;
