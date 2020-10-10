@@ -14,4 +14,9 @@
       display: block;
     }
   }
+  @media (max-width: $break_sm) {
+    .wrapper {
+      justify-content: center;
+    }
+  }
 }

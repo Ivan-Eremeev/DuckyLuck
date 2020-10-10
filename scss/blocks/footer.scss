@@ -26,4 +26,7 @@
   &_link {
     color: #fff;
   }
+  @media (max-width: $break_sm) {
+    font-size: 14px;
+  }
 }

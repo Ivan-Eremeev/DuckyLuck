@@ -70,4 +70,16 @@ body {
 
 .header {
 	padding: 20px 0 10px;
+	@media (max-width: $break_xl) {
+		margin-bottom: 20px;
+	}
+	@media (max-width: $break_sm) {
+		margin-bottom: 0;
+	}
+}
+.logo {
+	display: inline-block;
+	@media (max-width: $break_xl) {
+		max-width: 132px;
+	}
 }
