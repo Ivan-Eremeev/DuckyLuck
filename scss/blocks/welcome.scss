@@ -1,4 +1,5 @@
 .welcome {
+  padding-top: 1px;
   background-image: url(../img/cloud.png);
   background-repeat: no-repeat;
 	background-position: bottom center;
@@ -13,13 +14,12 @@
     text-transform: uppercase;
 	}
 	&_title {
-    padding-top: 1px;
 		font-family: Grobold;
-    color: #febb01;
+		color: #febb01;
 		font-size: 73px;
 		text-shadow: 6px 13px 0 #4a1452;
 		letter-spacing: 6px;
-		line-height: 1;
+		line-height: 0.97;
     margin-bottom: 25px;
     position: relative;
 	}
