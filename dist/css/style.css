@@ -271,6 +271,7 @@ body {
 	text-transform: uppercase;
 }
 .welcome_title {
+	padding-top: 1px;
 	font-family: Grobold;
 	color: #febb01;
 	font-size: 73px;
