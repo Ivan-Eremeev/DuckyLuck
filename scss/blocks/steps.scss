@@ -3,7 +3,7 @@
   color: #fff;
   .wrapper {
     display: flex;
-    margin-right: 40px;
+    padding-right: 70px;
   }
   &_item {
     display: flex;
@@ -63,7 +63,7 @@
   }
   @media (max-width: $break_xl) {
     .wrapper {
-      margin-right: 20px;
+      padding-right: 50px;
     }
     &_item {
       padding: 15px 10px 15px 34px;

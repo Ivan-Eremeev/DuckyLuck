@@ -390,7 +390,7 @@ body {
 }
 .steps .wrapper {
 	display: flex;
-	margin-right: 40px;
+	padding-right: 70px;
 }
 .steps_item {
 	display: flex;
@@ -447,7 +447,7 @@ body {
 }
 @media (max-width: 1400px) {
 	.steps .wrapper {
-		margin-right: 20px;
+		padding-right: 50px;
 	}
 	.steps_item {
 		padding: 15px 10px 15px 34px;
