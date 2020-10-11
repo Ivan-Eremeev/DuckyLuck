@@ -77,9 +77,9 @@
       }
     }
 	}
-	&_hero {
-		margin-right: 100px;
-  }
+	// &_hero {
+	// 	margin-right: 100px;
+  // }
   
   @media (max-width: $break_xl) {
     &_row {
@@ -109,9 +109,9 @@
       padding: 12px;
       font-size: 41px;
     }
-    &_hero {
-      margin-right: 0;
-    }
+    // &_hero {
+    //   margin-right: 0;
+    // }
   }
   @media (max-width: $break_md) {
     &_row {
@@ -134,14 +134,14 @@
     &_title {
       margin-bottom: 16px;
     }
-    &_hero {
-      width: 120%;
-      margin-left: -15px;
-      margin-right: -15px;
-      img {
-        width: 100%;
-      }
-    }
+    // &_hero {
+    //   width: 120%;
+    //   margin-left: -15px;
+    //   margin-right: -15px;
+    //   img {
+    //     width: 100%;
+    //   }
+    // }
   }
   @media (max-width: $break_xs) {
     &_title-big {
