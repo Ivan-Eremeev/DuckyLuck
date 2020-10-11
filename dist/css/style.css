@@ -111,8 +111,8 @@ h1, h2, h3 {
 	font-family: "Grobold";
 	font-weight: normal;
 	font-style: normal;
-	src: url("../fonts/Grobold/GROBOLD.eot");
-	src: url("../fonts/Grobold/GROBOLD.eot?#iefix") format("embedded-opentype"), url("../fonts/Grobold/GROBOLD.woff") format("woff"), url("../fonts/Grobold/GROBOLD.woff2") format("woff2"), url("../fonts/Grobold/GROBOLD.ttf") format("truetype"), url("../fonts/Grobold/GROBOLD.svg") format("svg");
+	src: url("../fonts/Grobold/Grobold.eot");
+	src: url("../fonts/Grobold/Grobold.eot?#iefix") format("embedded-opentype"), url("../fonts/Grobold/Grobold.woff") format("woff"), url("../fonts/Grobold/Grobold.woff2") format("woff2"), url("../fonts/Grobold/Grobold.ttf") format("truetype"), url("../fonts/Grobold/Grobold.svg") format("svg");
 }
 html.lock {
 	overflow: hidden;
