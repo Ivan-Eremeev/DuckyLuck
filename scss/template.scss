@@ -65,13 +65,13 @@ body {
 	max-width: 1920px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #696ee4;
 }
 
 .header {
 	padding: 20px 0 0;
+	background-color: #696ee4;
 	@media (max-width: $break_xl) {
-		margin-bottom: 20px;
+		padding: 20px 0 20px;
 	}
 	@media (max-width: $break_sm) {
 		margin-bottom: 0;
